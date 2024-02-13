@@ -18,6 +18,7 @@ body {
 	padding: 1rem;
 }
 
+
 .fnav .brand {
 	color: white;
 	font-size: 3em;
@@ -34,9 +35,33 @@ body {
 	white-space: nowrap;
 }
 
+@media (max-width: 1200px) {
+	.fnav {
+		display: flex;
+		flex-direction: column;
+	}
+	.fnav .brand .logo {
+		display: none;
+		padding-right: 0rem;
+	}
+	.nav-left {
+		display: block;
+	}
+	.nav-right {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 /*dropdown*/
 .dropdown {
 	padding-top: 1rem;
+}
+
+@media (max-width: 1200px) {
+	.dropdown {
+		padding-top: 0rem;
+	}
 }
 
 .dropdown-content {
@@ -71,6 +96,12 @@ body {
 	padding: 10%;
 }
 
+@media (max-width: 480px) {
+	.main-temp-text {
+		font-size: 6rem;
+		max-width: 80%;
+	}
+}
 
 /* about us styles  */
 
@@ -85,6 +116,7 @@ body {
 	text-align: center;
 	padding-top: 5rem;
 }
+
 
 .team-photo {
 	object-fit: cover;
@@ -102,6 +134,16 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
+}
+
+@media (max-width: 480px) {
+	.about-temp-text {
+		font-size: 6rem;
+		max-width: 80%;
+	}
+	.meet-header {
+		font-size: 6rem;
+	}
 }
 
 /* cmumunc styles  */
@@ -154,6 +196,12 @@ body {
 	min-height: 60vh;
 }
 
+@media (max-width: 480px) {
+	.general-text {
+		font-size: 6rem;
+	}
+}
+
 /* schedule styles  */
 
 .schedule-text {
@@ -167,6 +215,12 @@ body {
 
 .schedule-info {
 	font-size: 2rem;
+}
+
+@media (max-width: 480px) {
+	.schedule-text {
+		font-size: 6rem;
+	}
 }
 
 /* finaid styles  */
@@ -184,15 +238,23 @@ body {
 	height: 5rem;
 }
 
+@media (max-width: 480px) {
+	.finaid-text {
+		font-size: 6rem;
+	}
+}
+
 /* delegate resources styles  */
 
 .resources-text {
 	font-size: 12rem;
 	padding-top: 10rem;
+	text-align: center;
 }
 
 .resources-info {
 	font-size: 4rem;
+	text-align: center;
 }
 
 .resources-list {
@@ -201,11 +263,18 @@ body {
 	font-size: 3rem;
 }
 
+@media (max-width: 480px) {
+	.resources-text {
+		font-size: 6rem;
+	}
+}
+
 /* committees style  */
 
 .committees-text {
 	font-size: 12rem;
 	padding-top: 10rem;
+	text-align: center;
 }
 
 h1 {
@@ -230,16 +299,31 @@ h1 {
 	font-size: 2.5rem;
 }
 
+@media (max-width: 480px) {
+	.committees-text {
+		font-size: 6rem;
+	}
+}
+
 /* registration style */
 
 .reg-text {
 	font-size: 12rem;
 	padding-top: 10rem;
+	text-align: center;
 }
 
 .reg-info {
 	font-size: 4rem;
+	text-align: center;
 }
+
+@media (max-width: 480px) {
+	.reg-text {
+		font-size: 5.5rem;
+	}
+}
+
 
 /* contact style  */
 
@@ -250,6 +334,12 @@ h1 {
 
 .contact-info {
 	font-size: 4rem;
+}
+
+@media (max-width: 480px) {
+	.contact-text {
+		font-size: 6rem;
+	}
 }
 
 label {
