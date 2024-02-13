@@ -1,0 +1,277 @@
+:root {
+	--re2: #c60021;
+	--red: #C41230;
+	--steel: #E0E0E0;
+}
+
+body {
+	font-family: Oswald;
+}
+
+
+/* nav styles  */
+
+.fnav {
+	background-color: var(--red);
+	color: white;
+
+	padding: 1rem;
+}
+
+.fnav .brand {
+	color: white;
+	font-size: 3em;
+}
+
+.fnav .brand img {
+	max-height: 5rem;
+	padding-right: 2rem;
+}
+
+.fnav a, .nav a  {
+	color: white;
+	font-size: 1.4em;
+	white-space: nowrap;
+}
+
+/*dropdown*/
+.dropdown {
+	padding-top: 1rem;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: var(--red);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a:not(:last-child) {
+	border-bottom: 2px var(--red2) solid;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+
+/* main landing page styles  */
+
+.main-body {
+	background-color: black;
+	height: 100vh;
+}
+
+.main-temp-text {
+	color: white;
+	font-size: 12rem;
+	text-align: center;
+	max-width: 60%;
+	padding: 10%;
+}
+
+
+/* about us styles  */
+
+.about-temp-text {
+	font-size: 12rem;
+	max-width: 60%;
+	padding-top: 10rem;
+}
+
+.meet-header {
+	font-size: 12rem;
+	text-align: center;
+	padding-top: 5rem;
+}
+
+.team-photo {
+	object-fit: cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	padding-bottom: 1rem;
+
+}
+
+.small-team-photo {
+	object-fit: cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+/* cmumunc styles  */
+
+.general-text {
+	font-size: 12rem;
+	text-align: center;
+	padding-top: 5rem;
+}
+
+.general-desc {
+	font-size: 4rem;
+}
+
+.general-register {
+	background-color: var(--red);
+	font-size: 3rem;
+	color: white;
+	display: block;
+	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+
+.vertical {
+	border-radius: 30px;
+	background-color: var(--steel);
+	height: 50vh;
+	width: 4rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -2rem;
+}
+
+
+.general-reg-header {
+	font-size: 3rem;
+	text-align: center;
+}
+
+.general-reg-block {
+	text-align: center;
+}
+
+.vspace {
+	height: 10rem;
+}
+
+.longer-bottom {
+	min-height: 60vh;
+}
+
+/* schedule styles  */
+
+.schedule-text {
+	font-size: 12rem;
+	padding-top: 10rem;
+}
+
+.schedule-date {
+	font-size: 4rem;
+}
+
+.schedule-info {
+	font-size: 2rem;
+}
+
+/* finaid styles  */
+
+.finaid-text {
+	font-size: 12rem;
+	padding-top: 10rem;
+}
+
+.finaid-info {
+	font-size: 4rem;
+}
+
+.vspace5 {
+	height: 5rem;
+}
+
+/* delegate resources styles  */
+
+.resources-text {
+	font-size: 12rem;
+	padding-top: 10rem;
+}
+
+.resources-info {
+	font-size: 4rem;
+}
+
+.resources-list {
+	list-style-type: none;
+	text-align: center;
+	font-size: 3rem;
+}
+
+/* committees style  */
+
+.committees-text {
+	font-size: 12rem;
+	padding-top: 10rem;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+.committees-ga-info {
+	font-size: 3rem;
+	margin-left: 10rem;
+}
+
+.committee-photo {
+	object-fit: cover;
+	width:  50rem;
+	height: 20rem;
+	margin: auto;
+	display: block;
+}
+
+.committee-flavor {
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+/* registration style */
+
+.reg-text {
+	font-size: 12rem;
+	padding-top: 10rem;
+}
+
+.reg-info {
+	font-size: 4rem;
+}
+
+/* contact style  */
+
+.contact-text {
+	font-size: 12rem;
+	padding-top: 10rem;
+}
+
+.contact-info {
+	font-size: 4rem;
+}
+
+label {
+	font-size: 3rem;
+}
+
+input[type=text], textarea {
+	background-color: var(--steel);
+	border: none;
+}
+
+.social-circle {
+	background-color: black;
+	border-radius: 50%;
+	width: 10rem;
+	height: 10rem;
+	margin: 3rem;
+}
+
+.social-circle img {
+	width: 70%;
+	margin: auto;
+	display: block;
+	padding-top: 1.5rem;
+}
