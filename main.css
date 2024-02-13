@@ -249,10 +249,12 @@ body {
 .resources-text {
 	font-size: 12rem;
 	padding-top: 10rem;
+	text-align: center;
 }
 
 .resources-info {
 	font-size: 4rem;
+	text-align: center;
 }
 
 .resources-list {
@@ -272,6 +274,7 @@ body {
 .committees-text {
 	font-size: 12rem;
 	padding-top: 10rem;
+	text-align: center;
 }
 
 h1 {
@@ -307,10 +310,12 @@ h1 {
 .reg-text {
 	font-size: 12rem;
 	padding-top: 10rem;
+	text-align: center;
 }
 
 .reg-info {
 	font-size: 4rem;
+	text-align: center;
 }
 
 @media (max-width: 480px) {
